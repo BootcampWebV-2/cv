@@ -2,187 +2,263 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Army Nougues">
-    <meta name="description" content="My CV">
-    <title>CV Army</title>
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-KNTPF63');</script>
+<!-- End Google Tag Manager -->
+ <!-- Etiquetas meta generales -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<!--  Etiquetas meta de contenido del site -->
+<title>CV Armando Nougues | IT Support & FullStack Web Developer</title>
+<meta name="description" content="Curriculum Vitae de Armando Nougues. IT Support y Fullstack Web Developer">
+<meta name="keywords" content="desarrollo web,desarrollador web,desarrollador Fullstack,FullStack Web Developer,HTML5,CSS3,Java,JavaScript,AngularJS,ReactJS,VueJS,Python,Django,NodeJS">
+<meta name="author" content="Armando Nougues">
+<link rel="canonical" href="http://anakin.rockstardevops.com">
+
+<!-- Twitter card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@armyangray">
+<meta name="twitter:title" content="CV Armando Nougues">
+<meta name="twitter:description" content="Curriculum Vitae de Armando Nougues. IT Support y Fullstack Web Developer">
+<meta name="twitter:creator" content="@armyangray">
+<meta name="twitter:image" content="http://anakin.rockstardevops.com/assets/home-bg.jpg">
+
+<!-- Open ghrap -->
+<meta property="og:title" content="Curriculum Vitae de Armando Nougues. IT Support y Fullstack Web Developer">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://anakin.rockstardevops.com">
+<meta property="og:image" content="http://anakin.rockstardevops.com/assets/home-bg.jpg">
+<meta property="og:description" content="Curriculum Vitae de Armando Nougues. IT Support y Fullstack Web Developer">
+
+<!-- Favicon  -->
+<link rel="icon" type="image/png" href="http://anakin.rockstardevops.com/assets/favicon.ico">
+
+ 
+    
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Open+Sans:400,700,800" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./js/app.js" type="module"></script>
 </head>
 
 <body>
-    <header>
-        <h1 class="h1-main">Mi CV</h1>
-    </header>
-    <nav class="menu-icon">
-        <ul>
-            <li><a class="fas fa-bars" href="#bottom-menu"></a></li>
-        </ul>
-    </nav>
-    <nav id="top-menu" class="menu-top">
-        <ul>
-            <li>
-                <a href="./index.html#home">Inicio</a>
-            </li>
-            <li>
-                <a href="./index.html#whoami">Quien Soy</a>
-            </li>
-            <li>
-                <a href="./index.html#studies">Estudios</a>
-            </li>
-            <li>
-                <a href="./index.html#experience">Experiencia</a>
-            </li>
-            <li>
-                <a href="./index.html#about">Sobre mi</a>
-            </li>
-            <li>
-                <a href="./index.html#contact">Contacto</a>
-            </li>
-        </ul>
-    </nav>
+    <div class="top-wrapper">
+        <header>
+            <h1 class="h1-main">Curriculum</h1>
+        </header>
+        <nav class="menu-icon">
+            <a id="menu-btn-1" class="fas fa-bars" href="#menu-bottom"></a>
+            <a id="menu-btn-2" class="fas fa-times hide" href="#menu-bottom"></a>
+        </nav>
+        <nav id="menu-top" class="menu-top hide">
+            <ul>
+                <li><a data-index="0" href="#home" class="active">Inicio</a></li>
+                <!--  Portada: donde pondremos una imagen de foto con texto (deberá ocupar el viewport de la pantalla} -->
+                <li><a data-index="1" href="#quien">Quien soy</a>
+                 <!-- donde se mostrará información de interés y una foto nuestra. -->   
+                <li><a data-index="2" href="#mis-skills">Skills</a></li>
+                <!-- sección donde aparecerán nuestros diferentes skills -->
+                <li><a data-index="3" href="#experiencia">Experiencia</a></li>
+                <!--  donde se contará la experiencia laboral con la que contamos -->
+                <li><a data-index="4" href="#about">Sobre mí</a></li>
+                <!-- Sección donde mostraremos algunos de nuestros intereses o aficiones con un pequeño video (máximo 10 Mb). -->
+                <li><a data-index="5" href="#contacto">Contacto</a></li>
+                <!--  donde se mostrará los datos de contacto -->
+            </ul>
+        </nav>        
+    </div>
+
     <section id="home">
         <header>
             <div class="title-wrapper">
-                <h1 class="h1-section">Army Nougues</h1>
-                <p>IT Support - Full Stack Developer (In Progress)</p>
+                <h1 class="h1-section">Armando Nougues</h1>
+                <p>IT Support y Desarrollo Web</p>
+            </div>
+        </header>
+        <!-- <div class="content-wrapper"></div> -->
+    </section>
+    <section id="quien">
+        <div class="first-title-wrapper"></div>
+        <div class="content-wrapper">
+            <article>
+                <h2>Quién soy</h2>
+                <div class="img-container">
+                    <img src="./assets/Armando-Nougues.jpeg" alt="Foto de Armando Nougues">
+                </div>
+                <p> Soy Armando, pero todo el mundo me conoce como Army.
+                        Original del sur estoy a camino entre la generación Y y la millennial. 
+                        Desde que tengo uso de razón me ha apasionado la tecnología, mi primer ordenador fue un commodore 64, luego un Amstrad, 386, 486… así hasta el dia de hoy.
+                </p>
+           
+                        
+            </article>
+        </div>
+    </section>
+    <section id="skills">
+        <header>
+            <div class="title-wrapper">
+                <h1 class="h1-section">Mis Skills</h1>
+                <p>Mis skills de IT</p>
             </div>
         </header>
         <div class="content-wrapper">
-           
+            <article>
+                <h2>Desarrollo Web</h2>
+                <p>
+                        <ul>HTML5</ul>
+                        <ul>CSS</ul>
+                        <ul>JS</ul>
+                        <ul>Nodejs</ul>
+                        <ul>React</ul>
+                        <ul>Python</ul>
+                        <ul>Django</ul>
+                </p>
+            </article>
+            <article>
+                <h2>Administracion de Sistemas</h2>
+                <p>
+                
+                        <ul>Windows Server 2012 R2</ul>
+                        <ul>Active Directory</ul>
+                        <ul>Azure Cloud</ul>
+                        <ul>Ubuntu Server</ul>
+                        <ul>SCCM</ul>
+                        <ul>Alcatel PABX</ul>
+                        
+                
+                </p>
+            </article>
+            <article>
+                <h2>IT Support</h2>
+                <p>
+                        <ul>Soporte Onsite</ul>
+                        <ul>Soporte Remoto</ul>
+                        <ul>Service Desk</ul>
+                        <ul>Gestion de Incidencias</ul>
+                        <ul>Gestion de Problemas</ul>
+                        <ul>Peticiones de Servicio</ul>
+                        <ul>ITIL</ul>
+                    
+                </p>
+            </article>
         </div>
     </section>
-    <section id="whoami">
+    <section id="experiencia">
+        <header>
+                <div class="title-wrapper">
+                    <h1 class="h1-section">Experiencia</h1>
+                    <p>Que Trabajos y proyectos he realizado en los ultimos años</p>
+                </div>
+            </header>
+        <div class="content-wrapper">
+            <p>He trabajado en distintos ambitos, pero practicamente toda mi experiencia ha sido en el campo de IT.
+                Mi especialidad es en la rama de soporte Tecnico, con mas de 7 años de experiencia en servicios de soporte, remoto, onsite, interno y externo, en empresas como Apple, vodafone, Sector Alarm etc.
+                Tambien he realizado distintos proyectos freelance en como SEO, proyect manager, desarrollador web... Tanto para proyectos personales como para clientes.
+                    Esta es una lista de mis experiencias mas notables en el campo de IT:</p>
+            <ul><strong>Apple specialist</strong></ul>
+            <ul><strong>Apple FRS</strong></ul>
+            <ul><strong>Anteco systems Tier 2 Support</strong></ul>
+            <ul><strong>CMI Seo, linkbuilding y desarrollo web</strong></ul>
+            <ul><strong>Freelance IT Consultant</strong></ul>
+            <ul><strong>Project: PM y IT en callcenter (clientes privados)</strong> </ul>
+            <ul><strong>Project: PM y IT servios de soporte online (clientes privados)</strong></ul>
+            <ul><strong>Sector Alarm Global Service Desk</strong></ul>
+            <ul><strong>Sector Alarm IT Support Technician</strong></ul>
+            
+        </div>
+    </section>
+    <section id="about">
         <header>
             <div class="title-wrapper">
-                <h1 class="h1-section">Quien Soy</h1>
-                <p>This is what I do.</p>
+                <h1 class="h1-section">Acerca de mi</h1>
+                <p>Algo más personal acerca de mi.</p>
             </div>
         </header>
-        
         <div class="content-wrapper">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis voluptates eos ut inventore placeat tenetur porro fugiat
                 accusamus a commodi laudantium quis dolor, vero amet quasi? Labore laudantium voluptate rem.</p>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/rDiUVS_-4_Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p>Ratione impedit eum delectus ipsa quidem voluptates, quis, ullam fugit, alias adipisci odio eaque repellat repudiandae
                 ab optio aperiam repellendus animi. Modi repellendus asperiores dolore ad praesentium necessitatibus delectus repudiandae.
             </p>
             <p>Earum dolore neque eum quam. Iusto quasi quo hic adipisci magnam blanditiis placeat laborum sunt laboriosam, corporis,
                 sequi id ducimus similique, ex enim nemo! Ratione harum id tempora provident neque.</p>
         </div>
-        <div class="content-wrapper-pic">
-            <img id="army" src="./assets/yo.jpg" alt="Fotografia Army Nougues">
-        </div>
     </section>
-    <section id="studies">
+    <section id="contacto">
         <header>
             <div class="title-wrapper">
-                <h1 class="h1-section">Estudios</h1>
-                <p></p>
+                <h1 class="h1-section">Contacta conmigo</h1>
+                <p>¿Quieres preguntarme algo? Te respondere lo antes posible.</p>
             </div>
         </header>
         <div class="content-wrapper">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis voluptates eos ut inventore placeat tenetur porro fugiat
-                    accusamus a commodi laudantium quis dolor, vero amet quasi? Labore laudantium voluptate rem.</p>
-                <p>Ratione impedit eum delectus ipsa quidem voluptates, quis, ullam fugit, alias adipisci odio eaque repellat repudiandae ab
-                    optio aperiam repellendus animi. Modi repellendus asperiores dolore ad praesentium necessitatibus delectus repudiandae.
-                </p>
-                <p>Earum dolore neque eum quam. Iusto quasi quo hic adipisci magnam blanditiis placeat laborum sunt laboriosam, corporis, sequi
-                    id ducimus similique, ex enim nemo! Ratione harum id tempora provident neque.</p>
-        </div>
-    </section>
-    <section id="experience">
-            <header>
-                <div class="title-wrapper">
-                    <h1 class="h1-section">Experiencia</h1>
-                    <p></p>
-                </div>
-            </header>
-            <div class="content-wrapper">
-                <p></p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis voluptates eos ut inventore placeat tenetur porro fugiat
-                accusamus a commodi laudantium quis dolor, vero amet quasi? Labore laudantium voluptate rem.</p>
-                <p>Ratione impedit eum delectus ipsa quidem voluptates, quis, ullam fugit, alias adipisci odio eaque repellat repudiandae
-                    ab optio aperiam repellendus animi. Modi repellendus asperiores dolore ad praesentium necessitatibus delectus repudiandae.
-                </p>
-                <p>Earum dolore neque eum quam. Iusto quasi quo hic adipisci magnam blanditiis placeat laborum sunt laboriosam, corporis,
-                    sequi id ducimus similique, ex enim nemo! Ratione harum id tempora provident neque.</p>
-            </div>
-    </section>
-    <section id="about">
-            <header>
-                <div class="title-wrapper">
-                    <h1 class="h1-section">Sobre Mi</h1>
-                    <p></p>
-                </div>
-            </header>
-            <div class="content-wrapper">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis voluptates eos ut inventore placeat tenetur porro fugiat
-                    accusamus a commodi laudantium quis dolor, vero amet quasi? Labore laudantium voluptate rem.</p>
-                <p>Ratione impedit eum delectus ipsa quidem voluptates, quis, ullam fugit, alias adipisci odio eaque repellat repudiandae
-                    ab optio aperiam repellendus animi. Modi repellendus asperiores dolore ad praesentium necessitatibus delectus repudiandae.
-                </p>
-                <p>Earum dolore neque eum quam. Iusto quasi quo hic adipisci magnam blanditiis placeat laborum sunt laboriosam, corporis,
-                    sequi id ducimus similique, ex enim nemo! Ratione harum id tempora provident neque.</p>
-            </div>
-
-    </section>
-    <section id="contact">
-        <header>
-            <div class="title-wrapper">
-                <h1 class="h1-section">Contacto</h1>
-                <p>Have questions? I have answers.</p>
-            </div>
-        </header>
-        <div class="content-wrapper">
-            <p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>
-            <form action="">
+            <form action="" id="contact">
                 <ul>
-                    <li>
+                    <li class="form-group">
                         <label for="name">Name</label>
-                        <input type="text" name="name" id="name" placeholder="Name">
+                        <input type="text" name="name" id="name" placeholder="Name" required>
                     </li>
-                    <li>
-                        <label for="email">Email Address</label>
-                        <input type="email" name="email" id="email" placeholder="Email Address">
+                    <li class="form-group">
+                        <label  for="email">Email Address</label>
+                        <input type="email" name="email" id="email" placeholder="Email Address" required>
                     </li>
-                    <li>
+                    <li class="form-group">
                         <label for="phone">Phone Number</label>
-                        <input type="tel" name="phone" id="phone" placeholder="Phone Number">
+                        <input type="tel" name="phone" id="phone" placeholder="Phone Number" vrequired>
+                    </li>
+                    <li class="form-group">
+                        <label  for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message (máximo 150 palabras)" required></textarea>
                     </li>
                     <li>
-                        <label for="message">Message</label>
-                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                        <label for="selection">Como nos has encontrado</label>
+                        <select name="selection" id="selection" required>
+                            <option value="google">Google</option>
+                            <option value="linkedin">Linkedin</option>
+                            <option value="otros">Otros</option>
+                        </select>
                     </li>
+                    <li class="form-group oculto">
+                        <label for="name">Como has encontrado mi pagina</label>
+                        <input type="text" name="selection-otro" id="selection-otro" placeholder="Como nos has encontrado">
+                    </li>    
                 </ul>
-                <button class="boton" type="submit">Send</button>
+                <button class="boton" type="submit" id="send">Enviar</button>
             </form>
         </div>
     </section>
+    <nav id="menu-bottom" class="menu-bottom content-wrapper">
+        <ul>
+            <li>
+                <a href="./index.html#home">Home</a>
+            </li>
+            <li>
+                <a href="./index.html#about">About</a>
+            </li>
+            <li>
+                <a href="./post1.html#full_post">Sample Post</a>
+            </li>
+            <li>
+                <a href="./index.html#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
     <footer>
         <nav>
             <ul>
                 <li>
-                    <a href="https://twitter.com/armyangray" title="Twitter">
-                        <span class="fa-stack fa-2x">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                        </span>
-                    </a>
-                </li>
-                <li>
-                    <a href="http://linkedin.com/in/armynougues" title="Linkedin">
-                        <span class="fa-stack fa-2x">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
-                        </span>                        
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/SeoBrewer" title="Github">
+                    <a href="https://github.com/seobrewer" rel="nofollow" title="Github">
                         <span class="fa-stack fa-2x">
                             <i class="fas fa-circle fa-stack-2x"></i>
                             <i class="fab fa-github fa-stack-1x fa-inverse"></i>
@@ -191,7 +267,7 @@
                 </li>
             </ul>
         </nav>
-        <p><small>Copyright © Army Nougues 2018</small></p>
+        <p><small>Copyright © anakin.rockstardevops.com 2018</small></p>
     </footer>
 </body>
 
